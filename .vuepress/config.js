@@ -2,6 +2,7 @@ module.exports = {
   title: 'LamsLog',
   description: "Lam's note something",
   base: '/lamslog-vuepress/',
+  dest: 'docs',
   themeConfig: {
     sidebar: 'auto',
     logo: './assets/img/logo.png',
