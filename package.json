@@ -1,0 +1,23 @@
+{
+  "name": "lamslog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lamtran2601/lamslog-vuepress.git"
+  },
+  "author": "lamtran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamtran2601/lamslog-vuepress/issues"
+  },
+  "homepage": "https://github.com/lamtran2601/lamslog-vuepress#readme",
+  "dependencies": {
+    "vuepress": "^0.14.11"
+  }
+}
