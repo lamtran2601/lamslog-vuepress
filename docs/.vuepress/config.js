@@ -1,9 +1,9 @@
 module.exports = {
   title: 'LamsLog',
   description: "Lam's note something",
+  base: '/lamslog-vuepress/',
   themeConfig: {
     sidebar: 'auto',
-    base: '/lamslog-vuepress/',
     logo: './assets/img/logo.png',
     nav: [
       { text: 'Trang Chủ', link: '/' },
