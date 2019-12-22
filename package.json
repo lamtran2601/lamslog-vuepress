@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/lamtran2601/lamslog-vuepress#readme",
   "dependencies": {
-    "vuepress": "^0.14.11"
+    "vuepress": "^1.2.0"
   }
 }

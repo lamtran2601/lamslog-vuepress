@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'LamsLog',
-  description: "Lam's note something",
-  base: '/lamslog-vuepress/',
+  title: 'LamLogs',
+  description: "Lam's log anything",
+  base: '/',
   dest: 'docs',
   themeConfig: {
     sidebar: 'auto',
