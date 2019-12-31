@@ -1,6 +1,6 @@
 module.exports = {
   title: 'LamLogs',
-  description: "Lam's log anything",
+  description: "Log's anything",
   base: '/',
   dest: 'docs',
   themeConfig: {
@@ -10,5 +10,5 @@ module.exports = {
       { text: 'Trang Chủ', link: '/' },
       { text: 'Giới Thiệu', link: '/about/' },
     ],
-  }
+  },
 }

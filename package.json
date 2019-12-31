@@ -19,5 +19,8 @@
   "homepage": "https://github.com/lamtran2601/lamslog-vuepress#readme",
   "dependencies": {
     "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.6.1"
   }
 }
