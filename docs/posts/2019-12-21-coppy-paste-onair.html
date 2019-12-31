@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Copy file MacOS/Linux Local &lt;-&gt; Linux SSH ? Nén và giải nén Zip bằng CmdLine | LamLogs</title>
+    <meta name="description" content="Log&#39;s anything">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.17f32d1e.css" as="style"><link rel="preload" href="/assets/js/app.c3b7c968.js" as="script"><link rel="preload" href="/assets/js/2.243e2cc0.js" as="script"><link rel="preload" href="/assets/js/8.8b5a0052.js" as="script"><link rel="prefetch" href="/assets/js/10.34aa2e39.js"><link rel="prefetch" href="/assets/js/11.bcb96f38.js"><link rel="prefetch" href="/assets/js/3.5ecd6063.js"><link rel="prefetch" href="/assets/js/4.b7a9ba0c.js"><link rel="prefetch" href="/assets/js/5.f8b1dd83.js"><link rel="prefetch" href="/assets/js/6.db09eb46.js"><link rel="prefetch" href="/assets/js/7.a5f79b38.js"><link rel="prefetch" href="/assets/js/9.5bc8e697.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.17f32d1e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="./assets/img/logo.png" alt="LamLogs" class="logo"> <span class="site-name can-hide">LamLogs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">Trang Chủ</a></div><div class="nav-item"><a href="/about/" class="nav-link">Giới Thiệu</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">Trang Chủ</a></div><div class="nav-item"><a href="/about/" class="nav-link">Giới Thiệu</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Copy file MacOS/Linux Local  Linux SSH ? Nén và giải nén Zip bằng CmdLine</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/posts/2019-12-21-coppy-paste-onair.html#copy-paste" class="sidebar-link">Copy paste</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/posts/2019-12-21-coppy-paste-onair.html#local-ssh" class="sidebar-link">Local -&gt; SSH:</a></li><li class="sidebar-sub-header"><a href="/posts/2019-12-21-coppy-paste-onair.html#ssh-local" class="sidebar-link">SSH -&gt; Local</a></li><li class="sidebar-sub-header"><a href="/posts/2019-12-21-coppy-paste-onair.html#ssh-ssh" class="sidebar-link">SSH -&gt; SSH</a></li></ul></li><li><a href="/posts/2019-12-21-coppy-paste-onair.html#nen-va-giai-nen" class="sidebar-link">Nén và giải nén</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="copy-paste"><a href="#copy-paste" class="header-anchor">#</a> Copy paste</h2> <h3 id="local-ssh"><a href="#local-ssh" class="header-anchor">#</a> Local -&gt; SSH:</h3> <pre><code>scp /path/to/local/file username@hostname:/path/to/remote/file
+</code></pre> <h3 id="ssh-local"><a href="#ssh-local" class="header-anchor">#</a> SSH -&gt; Local</h3> <pre><code>scp username@hostname:/path/to/remote/file /path/to/local/file
+</code></pre> <h3 id="ssh-ssh"><a href="#ssh-ssh" class="header-anchor">#</a> SSH -&gt; SSH</h3> <pre><code>scp username1@hostname1:/path/to/file username2@hostname2:/path/to/other/file
+</code></pre> <p>nếu port khác 22 (default) sử dụng thêm sau scp</p> <pre><code>-P 1234
+</code></pre> <h2 id="nen-va-giai-nen"><a href="#nen-va-giai-nen" class="header-anchor">#</a> Nén và giải nén</h2> <pre><code>zip -r filename.zip foldername
+
+unzip filename.zip</code></pre></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.c3b7c968.js" defer></script><script src="/assets/js/2.243e2cc0.js" defer></script><script src="/assets/js/8.8b5a0052.js" defer></script>
+  </body>
+</html>
